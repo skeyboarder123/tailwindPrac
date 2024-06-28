@@ -7,7 +7,7 @@ import Register from './components/routes/Register';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/tailwindPrac">
       <div>
         <Routes>
           <Route path="/" element={<MainLayout />}>

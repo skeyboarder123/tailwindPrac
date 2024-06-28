@@ -1,5 +1,6 @@
 import Start from './SidePanel';
 import Socials from './Socials';
+import qwe from '../img/vector/rect.svg';
 
 function MainArticle() {
   return (
@@ -9,15 +10,7 @@ function MainArticle() {
       </div>
       <div className=" w-7/12 md:w-full">
         <div className="flex gap-3 justify-left items-center">
-          <svg
-            width="72"
-            height="2"
-            viewBox="0 0 72 2"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <rect width="72" height="2" fill="#FBD784" />
-          </svg>
+          <img src={qwe} alt="" />
           <p className=" text-orange-200/85 font-gilroyBold tracking-widest text-xl sm:text-lg">
             A&nbsp;HIKING GUIDE
           </p>
