@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/skeyboarder123/tailwindPrac/static/css/main.5b7afc48.css",
+    "main.js": "/skeyboarder123/tailwindPrac/static/js/main.f3f9ee37.js",
+    "static/media/MNTN.png": "/skeyboarder123/tailwindPrac/static/media/MNTN.83483c19b6bb8b4acf44.png",
+    "static/media/formImg.jpg": "/skeyboarder123/tailwindPrac/static/media/formImg.b177f1c5779fcfad41d9.jpg",
+    "static/media/SecImg.png": "/skeyboarder123/tailwindPrac/static/media/SecImg.4c9ad8484ba91fc8d863.png",
+    "static/media/ThirdImg.png": "/skeyboarder123/tailwindPrac/static/media/ThirdImg.f0bae4adf3425a2645bf.png",
+    "static/media/01.png": "/skeyboarder123/tailwindPrac/static/media/01.99021f287e3df69749fc.png",
+    "static/media/Chronicle Display Semibold.otf": "/skeyboarder123/tailwindPrac/static/media/Chronicle Display Semibold.c4bd9bb2263eabcbe0a3.otf",
+    "static/media/Gilroy-Bold.woff2": "/skeyboarder123/tailwindPrac/static/media/Gilroy-Bold.ef7c40ff1efeaaa4c7c6.woff2",
+    "static/media/Gilroy-Heavy.woff2": "/skeyboarder123/tailwindPrac/static/media/Gilroy-Heavy.19b3f6fe15dc6f668d28.woff2",
+    "static/media/Gilroy-Regular.woff2": "/skeyboarder123/tailwindPrac/static/media/Gilroy-Regular.f6c9931fabe5a6eb3307.woff2",
+    "static/media/account.svg": "/skeyboarder123/tailwindPrac/static/media/account.17f1e5f4a9dc688d03b71d03ff52d4f1.svg",
+    "static/media/twitt.svg": "/skeyboarder123/tailwindPrac/static/media/twitt.1bd12f20d2750aecb4c1782b70ec7963.svg",
+    "static/media/inst.svg": "/skeyboarder123/tailwindPrac/static/media/inst.5cb15eec75446a04ddcbac54b724cfb0.svg",
+    "index.html": "/skeyboarder123/tailwindPrac/index.html",
+    "static/media/alt-menu-svgrepo-com.svg": "/skeyboarder123/tailwindPrac/static/media/alt-menu-svgrepo-com.9e70f533f2c7a6e245f11aac7a5c5832.svg",
+    "static/media/arrow.svg": "/skeyboarder123/tailwindPrac/static/media/arrow.96116f354786dfb21bf9bfc9ae0c4ffb.svg",
+    "static/media/rect.svg": "/skeyboarder123/tailwindPrac/static/media/rect.90e15ca8cf230805f8bf387e595f7516.svg",
+    "main.5b7afc48.css.map": "/skeyboarder123/tailwindPrac/static/css/main.5b7afc48.css.map",
+    "main.f3f9ee37.js.map": "/skeyboarder123/tailwindPrac/static/js/main.f3f9ee37.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5b7afc48.css",
+    "static/js/main.f3f9ee37.js"
+  ]
+}
