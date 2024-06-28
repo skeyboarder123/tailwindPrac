@@ -1,13 +1,14 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../public/fonts/Gilroy-Regular.woff2');
+  font-family: 'GilroyBold';
+  src: url('../public/fonts/Gilroy-Bold.woff2');
+  font-family: 'GilroyHeavy';
+  src: url('../public/fonts/Gilroy-Heavy.woff2');
+  font-family: 'Chronicle Display';
+  src: url('../public/fonts/Chronicle\ Display\ Semibold.otf');
 }
