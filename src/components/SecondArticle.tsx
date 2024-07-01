@@ -5,7 +5,7 @@ import rty from '../img/vector/arrow.svg';
 
 function SecondArticle() {
   return (
-    <div className=" w-full bg-SiteColor pt-48  md:pt-40">
+    <section id="second" className=" w-full bg-SiteColor pt-48  md:pt-40">
       <div className="w-9/12 flex gap-24 mx-auto  relative 2xl:block md:block ">
         <img className=" max-w-full 2xl:hidden" src={SecImg} alt="hiking" />
         <h1 className=" text-superBig text-gray-400/20 relative  font-gilroyBold tracking-tighter lg:text-lgBig md:text-mdBig md:leading-none">
@@ -35,7 +35,7 @@ function SecondArticle() {
 
           <div className="">
             <Link
-              to="."
+              to="../form"
               className="text-orange-200/85 font-gilroyBold  text-lg flex gap-1 items-center"
             >
               read more
@@ -44,7 +44,7 @@ function SecondArticle() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

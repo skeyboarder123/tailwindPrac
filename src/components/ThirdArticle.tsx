@@ -5,7 +5,10 @@ import rty from '../img/vector/arrow.svg';
 
 function ThirdArticle() {
   return (
-    <div className=" w-full bg-SiteColor pt-48  2xl:pb-32 md:pt-40 md:pb-20">
+    <section
+      id="third"
+      className=" w-full bg-SiteColor pt-48  2xl:pb-32 md:pt-40 md:pb-20"
+    >
       <div className="w-9/12 flex justify-between mx-auto relative 2xl:block md:block">
         <h1 className=" text-superBig text-gray-400/20 relative  font-gilroyBold tracking-tighter lg:text-lgBig md:text-mdBig md:leading-none">
           03
@@ -35,7 +38,7 @@ function ThirdArticle() {
 
           <div className=" ">
             <Link
-              to="."
+              to="../form"
               className=" text-orange-200/85 font-gilroyBold  text-lg flex gap-1 items-center "
             >
               read more
@@ -44,7 +47,7 @@ function ThirdArticle() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

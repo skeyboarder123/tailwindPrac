@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import './Header.css';
 import account from '../img/vector/account.svg';
 import book from '../img/vector/alt-menu-svgrepo-com.svg';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 function Header() {
   return (
@@ -9,16 +10,16 @@ function Header() {
       <div>
         <Link
           className=" font-chronicle text-4xl text-white  sm:text-2xl"
-          to="."
+          to="/"
         >
           MNTN
         </Link>
       </div>
 
       <div className="flex gap-10 font-gilroyBold text-lg text-white md:hidden">
-        <Link to=".">Equipment</Link>
-        <Link to=".">About us</Link>
-        <Link to=".">Blog</Link>
+        <AnchorLink href="#first">Equipment</AnchorLink>
+        <AnchorLink href="#second">About us</AnchorLink>
+        <AnchorLink href="#third">Blog</AnchorLink>
       </div>
 
       <div className=" font-gilroyBold text-lg text-white md:hidden">

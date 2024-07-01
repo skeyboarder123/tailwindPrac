@@ -5,7 +5,7 @@ import rty from '../img/vector/arrow.svg';
 
 function FirstArticle() {
   return (
-    <div className=" w-full ">
+    <section id="first" className=" w-full ">
       <div className="w-9/12 flex justify-between mx-auto relative 2xl:block md:block">
         <h1 className=" text-superBig text-gray-400/20 relative  font-gilroyBold tracking-tighter lg:text-lgBig md:text-mdBig md:leading-none">
           01
@@ -35,7 +35,7 @@ function FirstArticle() {
 
           <div className="">
             <Link
-              to="."
+              to="../form"
               className=" text-orange-200/85 font-gilroyBold  text-lg flex gap-1 items-center "
             >
               read more
@@ -44,7 +44,7 @@ function FirstArticle() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 
